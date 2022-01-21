@@ -1,0 +1,65 @@
+{
+  "groups": [
+    {
+      "name": "huobi.constants",
+      "type": "com.huobi.constant.HuobiConstants",
+      "sourceType": "com.huobi.constant.HuobiConstants"
+    }
+  ],
+  "properties": [
+    {
+      "name": "huobi.constants.action-rep",
+      "type": "java.lang.String",
+      "sourceType": "com.huobi.constant.HuobiConstants",
+      "defaultValue": "rep"
+    },
+    {
+      "name": "huobi.constants.action-sub",
+      "type": "java.lang.String",
+      "sourceType": "com.huobi.constant.HuobiConstants",
+      "defaultValue": "sub"
+    },
+    {
+      "name": "huobi.constants.api-key",
+      "type": "java.lang.String",
+      "sourceType": "com.huobi.constant.HuobiConstants"
+    },
+    {
+      "name": "huobi.constants.op-req",
+      "type": "java.lang.String",
+      "sourceType": "com.huobi.constant.HuobiConstants",
+      "defaultValue": "req"
+    },
+    {
+      "name": "huobi.constants.op-sub",
+      "type": "java.lang.String",
+      "sourceType": "com.huobi.constant.HuobiConstants",
+      "defaultValue": "sub"
+    },
+    {
+      "name": "huobi.constants.secret-key",
+      "type": "java.lang.String",
+      "sourceType": "com.huobi.constant.HuobiConstants"
+    }
+  ],
+  "hints": [
+    {
+      "name": "huobi.constants.api-key",
+      "values": [
+        {
+          "value": "Access-Key",
+          "description": "Enter your Access-Key"
+        }
+      ]
+    },
+    {
+      "name": "huobi.constants.Secret-key",
+      "values": [
+        {
+          "value": "Secret-key",
+          "description": "enter your Secret-key"
+        }
+      ]
+    }
+  ]
+}
